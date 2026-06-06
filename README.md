@@ -8,11 +8,11 @@
 
 ## What Is This?
 
-This repository is a **complete, production-ready Incident Response (IR) documentation system** built from the ground up for real SOC and MSSP operations. It covers everything from governance and policy down to analyst-level SOPs, playbooks, forensic procedures, regulatory reporting, and post-incident improvement — 393 files across 12 modules.
+This repository is a **complete, production-ready Incident Response (IR) documentation system** built from the ground up for real SOC and MSSP operations. It covers everything from governance and policy down to analyst-level SOPs, playbooks, forensic procedures, regulatory reporting, and post-incident improvement  393 files across 12 modules.
 
 **This is not a template collection. This is an operational IR framework.**
 
-Whether you're a solo SOC analyst building your first formal IR process, an MSSP onboarding a new client, or a security manager preparing for an ISO 27001 audit — this repository gives you the full structure, ready to adapt and deploy.
+Whether you're a solo SOC analyst building your first formal IR process, an MSSP onboarding a new client, or a security manager preparing for an ISO 27001 audit  this repository gives you the full structure, ready to adapt and deploy.
 
 ---
 
@@ -142,11 +142,11 @@ IR-DOCUMENTATION/
 The policy and governance foundation. Covers the IR master policy, framework alignment documents, role definitions across L1–L3–SOC Lead–IRT, MSSP client responsibility matrix, and complete SLA/SLO definitions.
 
 **Key files:**
-- `IR-Policy-Master.md` — Master IR policy (doc ID: IR-POL-001)
+- `IR-Policy-Master.md`  Master IR policy (doc ID: IR-POL-001)
 - `IR-Policy-ISO27001-Alignment.md`, `IR-Policy-NIST-Alignment.md`, `IR-Policy-RBI-Alignment.md`
-- `RACI-Matrix-IR.xlsx` — Full RACI across all IR roles
-- `MSSP-Client-SLA-Template.md` — SLA definitions per client tier
-- `SLA-Breach-Escalation-Procedure.md` — What happens when SLAs are breached
+- `RACI-Matrix-IR.xlsx`  Full RACI across all IR roles
+- `MSSP-Client-SLA-Template.md`  SLA definitions per client tier
+- `SLA-Breach-Escalation-Procedure.md`  What happens when SLAs are breached
 
 ---
 
@@ -163,13 +163,13 @@ P1/P2/P3/P4 severity definitions, 14 named incident category profiles, and triag
 
 The operational core. 88 playbook files covering 13 attack types. Every playbook category contains:
 
-- **Master Playbook** — Full IR lifecycle for the incident type
-- **L1 Triage** — What the first-responder analyst does
-- **L2 Investigation** — Deep-dive analysis procedures
-- **L3 Forensics** — Advanced forensic and malware analysis
-- **Containment** — Immediate and strategic containment steps
-- **MITRE ATT&CK Mapping** — Full TTP mapping for threat hunting support
-- **Specialized documents** — Vendor coordination, cloud-provider-specific (AWS/Azure/GCP), eradication, recovery, legal notification, ISP coordination, and more
+- **Master Playbook**  Full IR lifecycle for the incident type
+- **L1 Triage**  What the first-responder analyst does
+- **L2 Investigation**  Deep-dive analysis procedures
+- **L3 Forensics**  Advanced forensic and malware analysis
+- **Containment**  Immediate and strategic containment steps
+- **MITRE ATT&CK Mapping**  Full TTP mapping for threat hunting support
+- **Specialized documents**  Vendor coordination, cloud-provider-specific (AWS/Azure/GCP), eradication, recovery, legal notification, ISP coordination, and more
 
 ---
 
@@ -210,9 +210,9 @@ Full escalation path matrix (L1→L2→L3→IRT→Management), communication tem
 P1 Initial Alert · P2 Initial Alert · 30-min Status Update · 1-hour Status Update · Management Notification · MSSP Client Notification · Bridge Call Agenda · Incident Closure Notification
 
 **Regulatory SOPs:**
-- `CERT-In-Reporting-SOP.md` — Indian CERT-In mandatory incident reporting
-- `RBI-Incident-Reporting-SOP.md` — RBI cyber incident reporting (6-hour requirement)
-- `RBI-Report-Template.md` — Ready-to-use RBI report format
+- `CERT-In-Reporting-SOP.md`  Indian CERT-In mandatory incident reporting
+- `RBI-Incident-Reporting-SOP.md`  RBI cyber incident reporting (6-hour requirement)
+- `RBI-Report-Template.md`  Ready-to-use RBI report format
 
 ---
 
@@ -333,10 +333,10 @@ Structured archive for closed incidents (`YYYY/MM/INC-ID-TYPE-DATE/`), retired p
 
 All documents in this repository follow:
 
-- **Document Control Block** — Document ID, Version, Owner, Effective Date, Review Cycle, Classification
-- **Classification Levels** — `Public` · `Internal` · `Confidential` · `Restricted`
-- **Review Cycle** — Annual (policies), Quarterly (MSSP operations), After major incidents (playbooks)
-- **Version Control** — All documents are versioned; major revisions tracked in the document header
+- **Document Control Block**  Document ID, Version, Owner, Effective Date, Review Cycle, Classification
+- **Classification Levels**  `Public` · `Internal` · `Confidential` · `Restricted`
+- **Review Cycle**  Annual (policies), Quarterly (MSSP operations), After major incidents (playbooks)
+- **Version Control**  All documents are versioned; major revisions tracked in the document header
 
 ---
 
@@ -344,11 +344,11 @@ All documents in this repository follow:
 
 This framework is designed to be adapted to your organisation's environment. When you use it:
 
-1. **Replace placeholder fields** — Look for `[CLIENT NAME]`, `[CL-####]`, `[REDACT]`, `[fill]`, and similar markers across all documents
-2. **Update contact directories** — `05_ESCALATION-AND-COMMUNICATION/05.4_Contact-Directory/`
-3. **Customise SLAs** — `00_GOVERNANCE/00.4_SLA-and-SLO/` to match your client agreements
-4. **Map to your toolchain** — Update SIEM, EDR, and ticketing references throughout `04_TOOLS-AND-TECHNOLOGY/`
-5. **Add client folders** — Copy `09_MSSP-SPECIFIC/09.2_Client-Playbook-Customization/CLIENT-NAME/` per client
+1. **Replace placeholder fields**  Look for `[CLIENT NAME]`, `[CL-####]`, `[REDACT]`, `[fill]`, and similar markers across all documents
+2. **Update contact directories**  `05_ESCALATION-AND-COMMUNICATION/05.4_Contact-Directory/`
+3. **Customise SLAs**  `00_GOVERNANCE/00.4_SLA-and-SLO/` to match your client agreements
+4. **Map to your toolchain**  Update SIEM, EDR, and ticketing references throughout `04_TOOLS-AND-TECHNOLOGY/`
+5. **Add client folders**  Copy `09_MSSP-SPECIFIC/09.2_Client-Playbook-Customization/CLIENT-NAME/` per client
 
 ---
 
